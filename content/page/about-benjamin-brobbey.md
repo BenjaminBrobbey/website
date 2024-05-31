@@ -1,7 +1,9 @@
 ---
 title: "About Me"
 date: 2024-05-31T07:36:48.871Z
-excludeFromTopNav: false
+menu: topnav
+weight: 10
+readingTime: 0
 showDate: false
 ---
 

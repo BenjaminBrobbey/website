@@ -44,49 +44,46 @@ disqusShortname = ""
   utterancesTheme       = "github-light"
   utterancesCrossOrigin = "anonymous"
 
-    resizeImages = true
+  resizeImages = true
 
-    avatarEmail = "fanky5g@gmail.com"
+  avatarEmail = "fanky5g@gmail.com"
 
-    customImage = ""
+  customImage = ""
 
-    overlayIcon = "fa-home"
+  overlayIcon = "fa-home"
 
-    permanentTopNav = false
+  permanentTopNav = false
 
-    stickyNav = false
+  stickyNav = false
 
-    showHeaderLanguageChooser = false
+  showHeaderLanguageChooser = false
 
-    enableHighlightJs = true
+  enableMomentJs = true
 
-    enableMomentJs = true
+  dateFormat = "2006-01-02"
 
-    dateFormat = "2006-01-02"
+  showReadingTime = false
 
-    showReadingTime = false
+  tocMinWordCount = 400
 
-    tocMinWordCount = 400
+  showFooter = true
 
-    showFooter = true
+  amountLatestPostsInFooter = 7
 
-    amountLatestPostsInFooter = 7
+  amountCategoriesInFooter = 7
 
-    amountCategoriesInFooter = 7
+  showFooterLanguageChooser = false
 
-    showFooterLanguageChooser = false
+  showSocialMedia = true
 
-    showSocialMedia = true
+  socialMediaLinks = [
+    { link = "https://twitter.com/TheRealLednerb", icon = "fab fa-twitter", rel = "me" },
+    { link = "https://github.com/Lednerb", icon = "fab fa-github" },
+  ]
 
-    socialMediaLinks = [
-      { link = "https://twitter.com/mistabrobbey", icon = "fab fa-twitter", rel = "me" },
-      { link = "https://github.com/fanky5g", icon = "fab fa-github" },
-    ]
+  showArchive = true
 
-    showArchive = true
-
-    archiveDateGrouping = "2006-01"
-
+  archiveDateGrouping = "2006-01"
 
 [Languages]
   [Languages.en]
@@ -97,7 +94,20 @@ disqusShortname = ""
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = false
-
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
   [markup.tableOfContents]
     endLevel = 5
     ordered = false
