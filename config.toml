@@ -11,9 +11,9 @@ disqusShortname = ""
   css_modules = []
   js_modules = []
 
-  author = "Lednerb"
-  description = "Bilberry Premium Theme for Hugo."
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  author = "Benjamin Appiah-Brobbey"
+  description = "Benjamin Appiah-Brobbey's Knowledge Base."
+  keywords = "tech,personal"
   paginate = 7
   enable_mathjax    = false
 
