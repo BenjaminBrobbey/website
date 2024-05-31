@@ -1,0 +1,114 @@
+title = "Benjamin Brobbey"
+baseURL = "https://benjaminbrobbey.github.io/"
+theme = "bilberry-hugo-theme"
+
+enableRobotsTXT = true
+DefaultContentLanguage = "en"
+googleAnalytics = ""
+disqusShortname = ""
+
+[params]
+  css_modules = []
+  js_modules = []
+
+  author = "Lednerb"
+  description = "Bilberry Premium Theme for Hugo."
+  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  paginate = 7
+  enable_mathjax    = false
+
+  algolia_search    = false
+  algolia_appId     = ""
+  algolia_apiKey    = ""
+  algolia_indexName = ""
+  algolia_currentLanguageOnly = true
+
+  giscus             = false
+  giscusJsUrl        = "https://giscus.app/client.js"
+  giscusRepository   = ""
+  giscusRepositoryId = ""
+  giscusMapping      = ""
+  giscusCategory     = ""
+  giscusCategoryId   = ""
+  giscusTheme        = "light"
+  giscusReactions    = "1"
+  giscusEmitMetadata = "0"
+  giscusLanguage     = "en"
+  giscusCrossOrigin  = "anonymous"
+
+  utterances            = false
+  utterancesJsUrl       = "https://utteranc.es/client.js"
+  utterancesRepository  = "[ENTER REPO HERE]"
+  utterancesIssueTerm   = "pathname"
+  utterancesLabel       = "Comment"
+  utterancesTheme       = "github-light"
+  utterancesCrossOrigin = "anonymous"
+
+    resizeImages = true
+
+    avatarEmail = "fanky5g@gmail.com"
+
+    customImage = ""
+
+    overlayIcon = "fa-home"
+
+    permanentTopNav = false
+
+    stickyNav = false
+
+    showHeaderLanguageChooser = false
+
+    enableHighlightJs = true
+
+    enableMomentJs = true
+
+    dateFormat = "2006-01-02"
+
+    showReadingTime = false
+
+    tocMinWordCount = 400
+
+    showFooter = true
+
+    amountLatestPostsInFooter = 7
+
+    amountCategoriesInFooter = 7
+
+    showFooterLanguageChooser = false
+
+    showSocialMedia = true
+
+    socialMediaLinks = [
+      { link = "https://twitter.com/mistabrobbey", icon = "fab fa-twitter", rel = "me" },
+      { link = "https://github.com/fanky5g", icon = "fab fa-github" },
+    ]
+
+    showArchive = true
+
+    archiveDateGrouping = "2006-01"
+
+
+[Languages]
+  [Languages.en]
+    weight = 1
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+  [markup.tableOfContents]
+    endLevel = 5
+    ordered = false
+    startLevel = 2
+
+[taxonomies]
+  author   = "author"
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[outputs]
+  home = [ "HTML", "JSON", "RSS" ]
+  page = [ "HTML" ]
