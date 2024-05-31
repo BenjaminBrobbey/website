@@ -1,6 +1,6 @@
 title = "Benjamin Brobbey"
 baseURL = "https://benjaminbrobbey.github.io/"
-theme = "bilberry-hugo-theme"
+theme = "bilberry-hugo-theme/v4"
 
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
